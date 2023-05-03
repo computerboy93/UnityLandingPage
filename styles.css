@@ -1,0 +1,44 @@
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    display:flex;
+}
+
+.section1 {
+    display:flex;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center;
+}
+
+
+.middle {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.freetrial {
+    display:flex;
+}
+
+.contactinfo {
+    display:flex;
+}
+
+
+
+
