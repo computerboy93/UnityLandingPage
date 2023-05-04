@@ -2,20 +2,73 @@
 body {
     display:flex;
     flex-direction: column;
+    margin:0px;
 }
 
 .header {
     display:flex;
     justify-content: space-between;
+    background-color: black; 
+}
+
+.header img {
+    height: 100px; 
+
 }
 
 .header ul {
     display:flex;
+    padding-right: 50px; 
+    font-size: 24px;
+
 }
+
+ul {
+    list-style-type: none; 
+}
+
+.header li {
+    padding:10px;
+    color: white; 
+}
+
 
 .section1 {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white; 
+    font-size: 18px;
+}
+
+.section1 h1 {
+    font-size: 48px; 
+    font-weight: 800;
+}
+
+.leftside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: 0px; 
+    border-radius: 5px;
+    padding: 4px;
+}
+
+
+.right_side img {
+    height: 225px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .title {
@@ -26,17 +79,84 @@ body {
 .middle {
     display: flex;
     justify-content: space-around;
+    padding: 20px 50px 80px 40px;
+}
+
+.title h1 {
+    font-size: 36px;  
+    font-weight:800;
+}
+
+.middle img {
+    height: 250px;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
 }
 
 
 
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom:30px;
+    background-color: #E5E7EB; 
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote .author {
+    font-weight: bold; 
+}
+
+/* figure out how to put murilo on the right side */
 
 .freetrial {
     display:flex;
+    padding-left: 110px;
+    padding-right:110px;
+    padding-top:30px;
+    padding-bottom:50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border: solid white 40px;
+    font-size: 18px;
+
 }
+
+.freetrial .description {
+    padding-right: 25px; 
+}
+
+.freetrial .button {
+    margin: 10px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    border: solid white 2px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+
 
 .contactinfo {
     display:flex;
+    background-color: black; 
+    color: white;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contactinfo ul {
+    padding-left:0px;
 }
 
 
