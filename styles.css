@@ -3,6 +3,7 @@ body {
     display:flex;
     flex-direction: column;
     margin:0px;
+    font-family: helvetica;
 }
 
 .header {
@@ -59,7 +60,8 @@ button {
     color: white;
     border: 0px; 
     border-radius: 5px;
-    padding: 4px;
+    padding: 7px;
+    font-weight: bold;
 }
 
 
@@ -76,6 +78,22 @@ button {
 }
 
 
+.item1, .item2, .item3, .item4 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
 .middle {
     display: flex;
     justify-content: space-around;
@@ -88,7 +106,7 @@ button {
 }
 
 .middle img {
-    height: 250px;
+    height: 285px;
     border-radius: 5px;
     padding: 0px 5px 0px 5px;
 }
@@ -99,7 +117,7 @@ button {
 .quote {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
     align-items: center; 
     padding-left: 150px;
     padding-right: 150px;
@@ -113,6 +131,7 @@ button {
 
 .quote .author {
     font-weight: bold; 
+    align-self: flex-end;
 }
 
 /* figure out how to put murilo on the right side */
@@ -144,6 +163,7 @@ button {
     border-radius: 5px;
     padding: 4px;
 }
+
 
 
 
